@@ -1,0 +1,10 @@
+{
+  "name": "multiplayer-ping-pong",
+  "version": "1.0.0",
+  "description": "Realtime multiplayer ping pong web game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/game.js"
+  }
+}
