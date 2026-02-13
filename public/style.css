@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, #1b2a4a, #0b1020);
+  font-family: Arial, sans-serif;
+  color: #f4f4f4;
+}
+
+main {
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #d7e3ff;
+  background: #091325;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  max-width: min(92vw, 900px);
+  height: auto;
+}
+
+.help,
+#status {
+  opacity: 0.9;
+}
